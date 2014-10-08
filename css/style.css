@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    font-family: 'Roboto', sans-serif;
 }
 ol, ul {
     list-style: none;
@@ -38,14 +39,16 @@ ol, ul {
 .content {
     box-sizing: border-box;
     padding: 0 15px;
+    margin: 0 auto;
+    width: 970px;
+    color: white;
+    text-align: center;
 }
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
 }
 .top-navigation > .content {
-    margin: 0 auto;
-    width: 970px;
     height: 70px;
 }
 .top-navigation .logo {
@@ -77,3 +80,20 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+.introduction {
+	background-position: 0 bottom;
+	height: 570px;
+	background-size: cover;
+	color: white;
+	}
+
+.content > .h1 {
+	font-size: 50px;
+	color: white;
+}
+
+.content > .h3 {
+	font-size: 24px;
+	color: white;
+}
+
