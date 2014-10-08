@@ -197,6 +197,58 @@ div {
 }
 
 /**
+ * Info Section
+ */
+.info {
+    background-image: url('../img/buy-now-bg.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 735px;
+    overflow: auto;
+}
+.info h1,
+.info h3 {
+    color: black;
+    text-align: left;
+    font-weight: 300;
+    margin-right: 575px;
+}
+.info h1 {
+    margin-top: 140px;
+    font-size: 50px;
+    color: #F15A29;
+}
+.info h3 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: black;
+}
+/**
+ * The button
+ */
+
+.info .learn button {
+    width: 155px;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 24px;
+    color: white;
+    font-size: 18px;
+}
+:focus {
+    outline: none;
+}
+.info .learn button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+/**
  * Footer
  */
 .social {
